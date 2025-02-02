@@ -14,7 +14,7 @@ import 'package:flutter/material.dart';
 int selectedIndex = 0;
 
 class BottoBarScreen extends StatefulWidget {
-  const BottoBarScreen({Key? key}) : super(key: key);
+  const BottoBarScreen({super.key});
 
   @override
   _BottoBarScreenState createState() => _BottoBarScreenState();

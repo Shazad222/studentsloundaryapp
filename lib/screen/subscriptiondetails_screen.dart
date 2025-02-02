@@ -21,7 +21,7 @@ class MyPriscriptionInfo extends StatefulWidget {
 }
 
 class _MyPriscriptionInfoState extends State<MyPriscriptionInfo> {
-  String oID = Get.arguments["oID"];
+  String oID = Get.arguments["oID" "12345"];
   GlobalKey<SfSignaturePadState> _signaturePadKey = GlobalKey();
   PreScriptionControllre preScriptionControllre = Get.find();
 

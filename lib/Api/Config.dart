@@ -2,7 +2,7 @@
 
 class Config {
   static const String oneSignel = "****************************";
-  static const String baseUrl = 'https://fastlaundry.cscodetech.cloud/';
+  static const String baseUrl = 'https://laundry.saleselevation.tech/';
   static const String imageurl = baseUrl;
 
   static const String path = baseUrl + '/rider_api/';

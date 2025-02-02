@@ -4,6 +4,7 @@ import 'package:deliveryboy/Api/Config.dart';
 import 'package:deliveryboy/Api/data_store.dart';
 import 'package:deliveryboy/controller/pagelist_controller.dart';
 import 'package:deliveryboy/helpar/fontfamily_model.dart';
+import 'package:deliveryboy/model/user_model.dart';
 import 'package:deliveryboy/screen/bottombar_screen.dart';
 import 'package:deliveryboy/screen/login_Screen.dart';
 import 'package:deliveryboy/screen/lorem_screen.dart';
@@ -395,10 +396,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         getData.remove('Firstuser');
                         getData.remove('Remember');
                         getData.remove("StoreLogin");
-                        Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Loginscreen()));
+                        // Navigator.pushReplacement(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //         builder: (context) => Loginscreen()));
                       });
                     },
                     child: Container(

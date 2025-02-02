@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fastlaundry.deliveryapp">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Add these permissions for SMS Retriever API -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
    <application
         android:label="FastLaundry Rider App"
         android:name="${applicationName}"
